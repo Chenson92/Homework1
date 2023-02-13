@@ -14,7 +14,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* heading attributes fall in sequential order */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -51,7 +51,7 @@ a {
     text-decoration: none;
 }
 
-article {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -70,6 +70,7 @@ figure {
     background-position: center;
 }
 
+/* group these three together as they have same attributes and values */
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -104,6 +105,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* group these three together as they have same attributes and values */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -111,6 +113,7 @@ aside {
     color: #ffffff;
 }
 
+/* group these three together as they have same attributes and values */
 .lead,
 .brand,
 .cost {
